@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Hariharan S | Portfolio</title>
+<title>Hariharan S</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: #0b1120;
+    font-family: 'Inter', sans-serif;
+    background: #0f172a;
     color: #e5e7eb;
 }
 
@@ -21,23 +21,24 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 60px;
-    background: #020617;
+    background: rgba(0,0,0,0.5);
 }
 
 nav h2 {
-    color: #3b82f6;
+    color: #38bdf8;
 }
 
 nav a {
-    color: #cbd5f5;
     margin-left: 25px;
+    color: #cbd5f5;
     text-decoration: none;
 }
 
 /* HERO */
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 120px 20px;
+    background: radial-gradient(circle, #1e293b, #020617);
 }
 
 .hero h1 {
@@ -45,7 +46,7 @@ nav a {
 }
 
 .hero span {
-    color: #3b82f6;
+    color: #38bdf8;
 }
 
 .hero p {
@@ -56,10 +57,16 @@ nav a {
 .btn {
     margin-top: 20px;
     padding: 12px 25px;
-    background: #3b82f6;
-    color: white;
+    background: #38bdf8;
+    color: black;
     border-radius: 6px;
     text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
 }
 
 /* SECTION */
@@ -70,38 +77,38 @@ section {
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #3b82f6;
+    color: #38bdf8;
 }
 
 /* CARD */
 .card {
-    background: #111827;
-    padding: 25px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
     transition: 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(56,189,248,0.2);
 }
 
 /* GRID */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 25px;
-    background: #020617;
+    padding: 30px;
     color: #94a3b8;
 }
 </style>
+
 </head>
 
 <body>
@@ -109,7 +116,6 @@ footer {
 <nav>
     <h2>Hariharan</h2>
     <div>
-        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </div>
@@ -118,11 +124,11 @@ footer {
 <div class="hero">
     <h1>Hi, I'm <span>Hariharan S</span></h1>
     <p>Python Developer | Data Analyst</p>
-    <a class="btn" href="https://github.com/hariharan-s-dev">GitHub Profile</a>
+    <a class="btn" href="https://github.com/hariharan-s-dev">View GitHub</a>
 </div>
 
-<section id="about">
-    <h2>About Me</h2>
+<section>
+    <h2>About</h2>
     <div class="card">
         MCA graduate with strong foundation in Python, SQL, and Data Analytics. Skilled in automation, IoT systems, and real-time problem solving.
     </div>
@@ -139,7 +145,7 @@ footer {
     <h2>Experience</h2>
     <div class="card">
         <b>Engineer Trainee – Bionic Robotics</b><br><br>
-        Worked on automation systems, troubleshooting, and embedded solutions in real-time industrial environments.
+        Worked on automation systems, troubleshooting, and embedded solutions in industrial environments.
     </div>
 </section>
 
@@ -149,17 +155,17 @@ footer {
 
         <div class="card">
             <b>Server Cooling System</b>
-            <p>IoT-based automation system for monitoring and controlling temperature.</p>
+            <p>IoT-based system for monitoring temperature and automatic cooling.</p>
         </div>
 
         <div class="card">
             <b>Smart Soil Irrigation</b>
-            <p>Automated irrigation system using sensor-based moisture detection.</p>
+            <p>Automated irrigation using moisture sensors for efficient water usage.</p>
         </div>
 
         <div class="card">
             <b>Home Automation</b>
-            <p>Voice-enabled smart home system for remote device control.</p>
+            <p>Voice-controlled smart system for remote appliance control.</p>
         </div>
 
     </div>
