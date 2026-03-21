@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hariharan S | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b1120;
+    color: #e5e7eb;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #020617;
+}
+
+nav h2 {
+    color: #3b82f6;
+}
+
+nav a {
+    color: #cbd5f5;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero span {
+    color: #3b82f6;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #94a3b8;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #3b82f6;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* SECTION */
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #3b82f6;
+}
+
+/* CARD */
+.card {
+    background: #111827;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #020617;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Hariharan</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1>Hi, I'm <span>Hariharan S</span></h1>
+    <p>Python Developer | Data Analyst</p>
+    <a class="btn" href="https://github.com/hariharan-s-dev">GitHub Profile</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        MCA graduate with strong foundation in Python, SQL, and Data Analytics. Skilled in automation, IoT systems, and real-time problem solving.
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="card">
+        Python • SQL • Excel • Power BI • Data Analysis • IoT • Arduino • C Programming
+    </div>
+</section>
+
+<section>
+    <h2>Experience</h2>
+    <div class="card">
+        <b>Engineer Trainee – Bionic Robotics</b><br><br>
+        Worked on automation systems, troubleshooting, and embedded solutions in real-time industrial environments.
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+
+        <div class="card">
+            <b>Server Cooling System</b>
+            <p>IoT-based automation system for monitoring and controlling temperature.</p>
+        </div>
+
+        <div class="card">
+            <b>Smart Soil Irrigation</b>
+            <p>Automated irrigation system using sensor-based moisture detection.</p>
+        </div>
+
+        <div class="card">
+            <b>Home Automation</b>
+            <p>Voice-enabled smart home system for remote device control.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Certifications</h2>
+    <div class="grid">
+        <div class="card">Data Analytics – NoviTech</div>
+        <div class="card">Data Analysis – S-Logic</div>
+        <div class="card">Robotics – Transon Dynamics</div>
+        <div class="card">PHP & MySQL – IIT Bombay</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        📧 hariharan.s.career@gmail.com <br><br>
+        💻 github.com/hariharan-s-dev <br><br>
+        🔗 linkedin.com/in/03-hariharan-s
+    </div>
+</section>
+
+<footer>
+    © 2026 Hariharan S
+</footer>
+
+</body>
+</html>
