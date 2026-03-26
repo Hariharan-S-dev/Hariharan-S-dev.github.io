@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Projects — Hariharan S</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-logo">HS<span class="dot">.</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="certifications.html">Certifications</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger">&#9776;</button>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="grid-overlay"></div>
+  </div>
+  <div class="page-hero-inner">
+    <div class="section-tag">WHAT I'VE BUILT</div>
+    <h1>My <span class="accent">Projects</span></h1>
+    <p>Real-world systems built with curiosity, code, and a bit of hardware magic.</p>
+  </div>
+</section>
+
+<section class="projects-section">
+  <div class="proj-grid">
+
+    <div class="proj-card">
+      <div class="proj-thumb proj-thumb-1">🏥</div>
+      <div class="proj-body">
+        <div class="proj-tags">
+          <span class="proj-tag tag-iot">IoT</span>
+          <span class="proj-tag tag-hw">ESP32</span>
+          <span class="proj-tag tag-hw">GSM</span>
+          <span class="proj-tag tag-py">Arduino IDE</span>
+        </div>
+        <h3>Automated Paralysis Patient Healthcare System</h3>
+        <p>An IoT-based health monitoring system using ESP32, pulse oximeter, and accelerometer to track patient vitals and detect falls in real time. Automated emergency SMS alerts are sent to caregivers via a GSM module when abnormal readings are detected. Includes a Wi-Fi web dashboard for remote patient monitoring and an LCD for on-screen readings.</p>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-thumb proj-thumb-2">🏠</div>
+      <div class="proj-body">
+        <div class="proj-tags">
+          <span class="proj-tag tag-iot">IoT</span>
+          <span class="proj-tag tag-hw">Arduino</span>
+          <span class="proj-tag tag-voice">Voice Control</span>
+        </div>
+        <h3>Home Automation System</h3>
+        <p>A voice-controlled IoT platform built with Arduino that enables hands-free control of home appliances. Designed to enhance user accessibility and convenience through smart device integration and seamless automation, making everyday tasks effortless.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Hariharan S &nbsp;·&nbsp; Built with passion &amp; code</p>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>
